@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="abccf1a6-812e-45b4-bc0d-3d7a2d871d83">
+  <name>АП_ЗагрузкаЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка чеков</value>
+  </synonym>
+  <comment></comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6686a45f-5ea6-4fac-9334-f4281418ed05"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="305968c9-1095-4ca6-a45c-bc4595483b55"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0db2f4bf-a9e4-43cd-b4cc-ce2bd39dc9de"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d88bad9f-01ee-4342-a1c6-02951d05bdf7"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0ae71ef1-2bc2-413c-91de-208f167ba008"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="efd2a58b-e429-4845-b223-8e792bb4ca5b"/>
+  <namePrefix>АПЗЧ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.8</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Астахов П.В &lt;astakhovp@gmail.com></vendor>
+  <version>20170814</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="55bc8a57-6230-4c1f-a28f-c52c4b25c03b">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ДеньгиФонИнформационнойГруппы</styleItems>
+  <styleItems>StyleItem.ЦветЛинииРазделителя</styleItems>
+  <styleItems>StyleItem.ЦветВыделенияГосОргана</styleItems>
+  <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
+  <styleItems>StyleItem.ВторостепеннаяНадписьЦвет</styleItems>
+  <styleItems>StyleItem.ЦветФонаУдачнойОтправки</styleItems>
+  <styleItems>StyleItem.ЦветФонаОшибкиОтправки</styleItems>
+  <commonPictures>CommonPicture.ПрочиеПользовательскиеНастройки</commonPictures>
+  <commonPictures>CommonPicture.Ошибка32</commonPictures>
+  <commonPictures>CommonPicture.Настройка16_2</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьЭлементВЯчейку16</commonPictures>
+  <commonPictures>CommonPicture.СинхронизацияДанныхПодсистема</commonPictures>
+  <catalogs>Catalog.ВариантыБюджетов</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.СтатьиРасходов</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.Контакты</catalogs>
+  <catalogs>Catalog.КошелькиИСчета</catalogs>
+  <documents>Document.Расход</documents>
+  <dataProcessors>DataProcessor.НачальнаяСтраница</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаЧеков</dataProcessors>
+  <informationRegisters>InformationRegister.КлючевыеСловаОбъектов</informationRegisters>
+</mdclass:Configuration>

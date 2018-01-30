@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f1287e69-2a2e-4daf-95f5-0d666df59f5f">
+  <producedTypes>
+    <selectionType typeId="14a1ba49-bb92-43ef-8e09-262894123f9a" valueTypeId="c040080a-815f-449c-bae2-6d6f3f6f34af"/>
+    <listType typeId="557caf2e-6fc9-4afb-ac92-8b7a92c49a99" valueTypeId="e815a4cd-29cf-4fe0-ab68-141a58e12f07"/>
+    <managerType typeId="803b5fa8-6f49-4d46-9d12-a01fd3e7640b" valueTypeId="f9ab1db2-eaff-44c8-8098-ed4d93405e47"/>
+    <recordSetType typeId="f642d17c-20c1-4ba6-b6e8-6122a3526565" valueTypeId="e8d16e73-d752-4ea3-b602-4b04deca7cf5"/>
+    <recordKeyType typeId="246572d3-d786-4bd7-95f4-054c9a5448ac" valueTypeId="94d37a06-1787-4360-b95a-f8445cc70148"/>
+    <recordType typeId="48a67797-6cb1-474f-be8f-ceca538814c7" valueTypeId="523204d1-3e10-4439-bfe8-008b14a969a3"/>
+    <recordManagerType typeId="f78ea22d-2389-40a9-b7df-4936fa0cea6d" valueTypeId="004d70c6-7291-4ae5-a2de-0065e3f90f8d"/>
+  </producedTypes>
+  <name>КлючевыеСловаОбъектов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="4ba3265f-0439-4f65-be93-aa80e5a2a236">
+    <name>Объект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3f9e8202-4889-41d3-9e5f-c3c44e48e6b3">
+    <name>ИдентификаторОбъекта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="200d7bf5-f5f5-4351-ae28-5092a2cf6555">
+    <name>КлючевоеСлово</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

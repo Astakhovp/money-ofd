@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aa91fc16-9247-4d14-be96-37b75fbc1bc2">
+  <producedTypes>
+    <objectType typeId="7c7b34ca-2e63-4187-a8f3-1eee6b2b7d12" valueTypeId="d3d2973d-4967-4d14-b4f9-057555e0d96b"/>
+    <refType typeId="b9b95bcc-3b61-43d8-b558-14d6efd6309c" valueTypeId="303379b2-ee06-4cbf-a730-340c59cd0676"/>
+    <selectionType typeId="39e9a003-398b-478d-bc29-c7ad8f4bfc85" valueTypeId="038ab4ed-dab6-4214-ab03-36270ac99cd4"/>
+    <listType typeId="f39cb2fe-e517-454a-8f52-ea8ae6e918e6" valueTypeId="4c7ea645-ae13-4706-b804-9f713e6989a6"/>
+    <managerType typeId="972d04fa-1a98-46ad-98e8-d97c2f8d6e44" valueTypeId="da930fe6-310e-4a11-a779-b68e607d2a02"/>
+  </producedTypes>
+  <name>КошелькиИСчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1de3cdf6-b5a0-4f59-80e7-7c7003b76aa2">
+  <producedTypes>
+    <objectType typeId="28ff69d4-f8f0-4e46-a238-b7ac623e5f9d" valueTypeId="9d7fa997-2c09-4507-9d1e-b9d30d78063e"/>
+    <managerType typeId="d89dbf73-a765-48ed-a984-c0545c60fc04" valueTypeId="7ee168f4-aa5f-4181-a67f-f609f332cb1b"/>
+  </producedTypes>
+  <name>ЗагрузкаЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка чеков</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаЧеков.Form.Форма</defaultForm>
+  <forms uuid="acc39012-10ac-48bc-8dbd-17b36bea4a8a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dc4cf8dd-ff93-463f-8358-9e3796a9ea00">
+    <name>ФормаКлючевыхСлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ключевых слов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
